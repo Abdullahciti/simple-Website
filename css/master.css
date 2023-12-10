@@ -455,3 +455,6 @@ body {
   border: none;
   transition: all var(--main-duration);
 }
+.go-up:focus{
+  outline: none;
+}
