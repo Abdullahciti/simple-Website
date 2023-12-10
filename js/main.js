@@ -33,10 +33,8 @@ document.addEventListener("click", function () {
 
 window.onscroll = function () {
 
-    if (height > 0) {
-        loader.style.width = `${(height / maxHeight) * 100}%`;
-    }
-
+    let scrollTop = document.documentElement.scrollTop;
+    loader.style.width = `${(scrollTop / height) * 100}%`;
     if (height >= 499) {
         btnGoUp.style.display = "block";
     } else {
