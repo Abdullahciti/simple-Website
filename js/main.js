@@ -6,8 +6,7 @@ let btnGoUp = document.querySelector(".go-up");
 
 // Settings
 let isOn = false;
-let maxHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight
-let height = document.documentElement.scrollTop;
+let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
 
 // console.log(height, "||", maxHeight, "||", window.innerHeight);
 
